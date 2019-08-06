@@ -1,4 +1,4 @@
-`Working Prototype: https://recipes-app-react.web.app/`
+Working Prototype: https://recipes-app-react.web.app/
 
 ## Available Scripts
 
