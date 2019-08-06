@@ -1,33 +1,75 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+
+.search-form{
+  min-height: 15vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  
+  
+
+}
+
+.search-bar{
+  
+  border: none;
+  padding: 10px;
+  width: 40%;
+  -webkit-box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+border-radius: 0.6rem 0rem 0rem 0.6rem;
+
+}
+
+.search-button{
+  background: #8258FA;
+  border: none;
+  padding: 10px 20px;
   color: white;
+  -webkit-box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 5px -1px rgba(0,0,0,0.75);
+  border-radius: 0rem 0.6rem 0.6rem 0rem;
+}
+.recipes{
+  padding: 5vh;
+  display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(18vw, 1fr));
+   grid-gap: 20px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.loading{
+  display: flex;
+  font-size: 7em;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer{
+  min-height: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.3rem;
+  position: relative;
+  bottom: 0;
+}
+.landing{
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
